@@ -24,4 +24,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:divider="@null" />
+    <TextView
+        android:id="@+id/listview_forecast_empty"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_weather_info_available"/>
 </FrameLayout>
